@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import Detail from "./pages/Detail";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
+import Service from "./components/Service";
+import Contact from "./components/Contact";
 
 const routes = createBrowserRouter([
   {
@@ -15,6 +17,8 @@ const routes = createBrowserRouter([
       { path: "/detail", element: <Detail /> },
       { path: "/about", element: <About /> },
       { path: "/gallery", element: <Gallery /> },
+      { path: "/service", element: <Service /> },
+      { path: "/contact", element: <Contact /> },
     ],
   },
 ]);

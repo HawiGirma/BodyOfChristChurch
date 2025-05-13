@@ -9,18 +9,18 @@ function Navbar() {
         </Link>
 
         <nav className="hidden items-center space-x-8 md:flex">
-          <a href="#service" className="text-sm hover:text-red-600">
-            Services
-          </a>
           <Link to="/about" className="text-sm hover:text-red-500">
             About
+          </Link>
+          <Link to="/service" className="text-sm hover:text-red-600">
+            Services
           </Link>
           {/* <a href="#" className="text-sm hover:text-red-600">
             Programs
           </a> */}
-          <a href="#contact" className=" text-sm hover:text-red-600">
+          <Link to="/contact" className=" text-sm hover:text-red-600">
             Contact Us
-          </a>
+          </Link>
         </nav>
 
         <div className="flex items-center space-x-6">
