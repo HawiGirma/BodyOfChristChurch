@@ -1,15 +1,13 @@
 import Landing from "../components/Landing";
-// import Search from "../components/Search";
-// import Body from "../components/Body";
-import Chatbot from "../components/Chatbot";
+import Service from "../components/Service";
+import Contact from "../components/Contact";
 const Home = () => {
   return (
-    <div className="bg-gradient-to-b from-gray-100 to-rose-300">
+    <div className=" scroll-smooth">
       <Landing />
-      {/* <Search /> */}
+      <Service />
 
-      {/* <Body /> */}
-      <Chatbot />
+      <Contact />
     </div>
   );
 };

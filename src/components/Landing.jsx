@@ -1,17 +1,17 @@
-import heroImage from "../assets/image-2.png"; // ✅ Use a valid variable name for the imported image
+import heroImage from "../assets/image-2.jpg"; // ✅ Use a valid variable name for the imported image
 import { ChevronRight, Play } from "lucide-react";
 
 export default function Landing() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-100 to-orange-400 text-black">
+    <div className="min-h-screen  bg-[#E9EFEC] text-black">
       {" "}
-      <div className="container mx-auto px-4 py-6">
+      <div className="container mx-auto px-4 py-10">
         {/* Main Content */}
-        <main className="mt-12 grid grid-cols-1 items-center gap-8 md:mt-20 md:grid-cols-2">
+        <main className="mt-12 grid grid-cols-1 py-16 items-center gap-8 md:mt-20 md:grid-cols-2">
           {/* Left Column - Hero Text */}
           <div className="relative z-10">
             <h1 className="text-6xl leading-tight font-sora font-bold tracking-tighter uppercase md:text-8xl">
-              Obboloota fi Dhagna
+              Obboloota
               <br />
               Yesuus.
             </h1>
@@ -20,7 +20,7 @@ export default function Landing() {
               <div className="text-sm font-sora font-medium uppercase md:text-base">
                 About
               </div>
-              <p className="mt-2  max-w-md text-sm leading-snug font-sora font-large text-white uppercase md:text-base">
+              <p className="mt-2  max-w-md text-sm leading-snug font-sora font-large text-black uppercase md:text-base">
                 Body of Christ is a community of believers who are committed to
                 their head Christ. Walitti qabama dhagna isa tokkicha qalame
                 sanaa
